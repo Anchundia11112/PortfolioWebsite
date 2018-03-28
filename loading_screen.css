@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}	
+
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	/*https://media.giphy.com/media/1dZf1zUJdgdri/giphy.gif  https://wallpapercave.com/wp/rynrJt4.jpg*/
+	background: url(https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/10/City-Lights-by-Sbsvn.gif) ;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Railway',sans-sarif;
+	color: 	#87CEFA;
+	text-shadow:  0px 0px 300px #000;
+	text-transform: capitalize;
+	font-size: 510%;
+}
+
+.button{
+	border-radius: 9px;
+	font-family: 'Oswald', sans-sarif;
+	color: #fff;
+	font-size: 140%;
+	border: solid #fff 3px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.button:hover{
+	color: #66cccc ;
+	border: solid #66cccc 3px;
+}
+
+a.button {
+    appearance: button;
+    text-decoration: none;
+    
+}
