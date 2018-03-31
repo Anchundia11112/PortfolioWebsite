@@ -23,6 +23,8 @@ button{
 	text-align: center;
 }
 
+
+
 /*Start of the wrapper to create a row of 4 equ-spaced columns */
 .wrapper {
 	background: #D3D3D3;
@@ -49,4 +51,8 @@ button{
     height: 50%;
     width: 50%;
     padding-left: 400px;
+}
+
+.BottomText {
+	color: black;
 }
